@@ -1,3 +1,34 @@
+/*
+Team BuReTo:
+Paul Burinda, Yan Ren, Taiwo Togun
+main.css
+A100 Portfolio Sheet
+
+*/
+
+/* GLOBAL STYLES */
+  /* Alignment */
+    .centered { text-align: center; }
+
+    .rightAlign { text-align: right; }
+
+    .leftAlign { text-align: left; }
+
+    .allCaps { text-transform: uppercase; }
+
+  /* Margins */
+    .topMargin { margin-top: 30px; }
+
+    .topMarginX { margin-top: 50px; }
+
+    .topMarginBig {margin-top: 100px; }
+
+    .bottomMargin { margin-bottom: 30px; }
+
+  /* Sizing */
+    .small { font-size: 1em; }
+
+
 .WebsiteProj, .WhiteboardProj{
 	margin: 20px;
 }
@@ -11,7 +42,7 @@
   background: #006496;
 }
 
-/* CUSTOMIZE THE NAVBAR
+/* Carousel navbar
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
@@ -85,6 +116,29 @@
   position: relative;
 }
 
+.textDarkBG {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 1.15em;
+letter-spacing: -.045em;
+color: white;
+}
+
+/* Footer CSS
+---------------------------------------------------*/
+#footer {
+background: #3e3e3e;
+padding: 50px;
+}
+
+.footerDarkBG {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  letter-spacing: -.045em;
+  line-height: 1.3em;
+  color: white;
+}
 
 /* Carousel RESPONSIVE CSS
 -------------------------------------------------- */
@@ -115,6 +169,32 @@
     font-size: 21px;
     line-height: 1.4;
   }
+
+  .headerDarkBG {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    letter-spacing: -.045em;
+    line-height: 1.3em;
+    color: white;
+  }
+
+  .allCaps {
+    text-transform: uppercase;
+  }
+
+  .textDarkBG {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.15em;
+    letter-spacing: -.045em;
+    color: white;
+  }
+
+  #footer {
+    background: #3e3e3e;
+    padding: 50px; 
+  }
 }
 
 @media (max-width: 767px) {
@@ -143,4 +223,3 @@
   		display: none;
   	}
   }
-}
