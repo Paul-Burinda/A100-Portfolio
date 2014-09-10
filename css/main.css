@@ -7,12 +7,18 @@ A100 Portfolio Sheet
 */
 
 /* GLOBAL STYLES */
-  /* Alignment */
+  /* Text Alignment */
     .centered { text-align: center; }
 
     .rightAlign { text-align: right; }
 
     .leftAlign { text-align: left; }
+
+    /* Image Alignment*/
+    .imgCenter{
+      margin: 0 auto;
+      
+    }
 
     .allCaps { text-transform: uppercase; }
 
@@ -28,17 +34,22 @@ A100 Portfolio Sheet
   /* Sizing */
     .small { font-size: 1em; }
 
+body {
+  background: #ebecee;
+}
 
+/*  Accordion Styling
+-------------------------------------------------- */
 .WebsiteProj, .WhiteboardProj{
-	margin: 20px;
+  margin: 20px;
 }
 
-.Apprentice-Carousel {
-	width: 100%;
-	height: 90%;
+.WebsiteProj img, .WhiteboardProj img {
+  width: 200px;
+  height: 200px;
 }
 
-.Carousel-bg{
+.WebsiteProj #panel-heading, .WhiteboardProj #panel-heading {
   background: #006496;
 }
 
@@ -70,7 +81,14 @@ A100 Portfolio Sheet
 
 /* Apprentice Carousel Feature
 -------------------------------------------------- */
+.Apprentice-Carousel {
+  width: 100%;
+  height: 90%;
+}
 
+.Carousel-bg{
+  background: #006496;
+}
 .carousel {
   height: 95%;
 }
