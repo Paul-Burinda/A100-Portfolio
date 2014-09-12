@@ -308,6 +308,11 @@ padding: 50px;
 }
 
 @media (max-width: 767px) {
+
+  body {
+    padding-top: 140px;
+  }
+
   .carousel {
     height: 90%;
   }
