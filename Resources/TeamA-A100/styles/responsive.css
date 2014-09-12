@@ -1,0 +1,107 @@
+.section-inner {
+	padding: 0 10px 15px 10px;
+}
+
+/* one-third */
+.one-third, .one-half {
+	width: 100%;
+	margin: 10px 0;
+}
+
+.one-third {
+	background-color: rgba(240,240,240,1);
+}
+
+.student_img_container {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.carousel .apprentice .student-circle {
+	position: relative;
+	margin-left: 40px;
+}
+
+.quotation {
+	display: none;
+}
+
+.quote-arrow {
+	display: none;
+}
+
+.apprentice .comment {
+	padding: 0 20px 20px;
+}
+
+.apprentice .comment .fa {
+	visibility: visible;
+}
+
+.student-info { 
+	position: absolute;
+	top: 80px;
+	left: 300px;
+}
+
+.student-info2 {
+	display: none;
+}
+
+@media (max-width: 580px) {
+  	.student-info { 
+		position: absolute;
+		top: 180px;
+		left: 100px;
+		display: none;
+	}
+
+	.student-info2 {
+		display: block;
+	}
+	.carousel .apprentice .student-circle {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.apprentice .left-image {
+		left: 0;
+	}
+}
+
+
+/*******************/
+
+.multi-column .apply {
+	min-height: 0px;
+	margin-bottom: 10px;
+}
+
+.multi-column .apply-image {
+	min-height: 250px !important;
+	margin-bottom: 10px;
+}
+
+.training .top {
+	display: none;
+}
+
+.training .bottom {
+	display: block;
+}
+
+.apply-image {
+	width: 96%;
+	height: 96%;
+	margin: 2%;
+}
+
+/****** partners ******/
+#partners .employers-image {
+	background-image: url("../images/partners/krishna.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 15px;
+	min-height: 300px !important;
+	margin-bottom: 10px;
+}

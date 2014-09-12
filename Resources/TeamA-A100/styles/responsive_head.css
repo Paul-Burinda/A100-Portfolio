@@ -1,0 +1,68 @@
+.main-header {
+	margin: 0px;
+	padding: 0 0 0 5px;
+}
+
+.main-nav .first {
+	display: none;
+}
+
+.main-nav .second {
+	display: block;
+}
+
+.main-nav ul {
+	padding: 0px;
+	margin: 0;
+}
+
+.hidden-nav {
+	background: ;
+}
+
+.hidden-nav ul {
+	padding: 0 0 0px;
+	margin: 0;
+}
+
+.hidden-nav ul li:first-child {
+	border-top: ;1px solid rgba(2, 72, 99, 0.5);
+}
+
+.hidden-nav ul li {
+	border-bottom: 1px solid rgba(2, 72, 99, 0.5);
+	font-family: "Raleway-Regular";
+	font-weight: 200px;
+	text-align: center;
+}
+
+.hidden-nav ul li a:link, .hidden-nav ul li a:visited {
+	display: block;
+	padding: 10px 10px;
+	color: #000;
+}
+
+.hidden-nav ul li a:hover {
+	color: rgba(168,3,146,1);
+}
+
+.hidden-nav ul li > a.active-link {
+	color: black !important;
+	background-color: rgba(122,2,33,0.1) !important;
+}
+
+
+
+/********** testimonials ************/
+.testimonials .section-inner .comment {
+	padding-right: 0px;
+}
+
+.testimonials .section-inner .right {
+	display: none;
+}	
+
+.apply-hidden {
+	display: block;
+	text-align: center;
+}

@@ -36,6 +36,7 @@ A100 Portfolio Sheet
 
 body {
   background: #ebecee;
+  padding-top: 70px;
 }
 
 p {
@@ -52,7 +53,7 @@ p {
   height:50px;
   padding:1px 25px;
   font-size:18px;
-  line-height:20px
+  line-height:20px;
   color: #636363;
 }
 
@@ -115,6 +116,7 @@ p {
 -------------------------------------------------- */
 .WebsiteProj, .WhiteboardProj{
   margin: 20px;
+  border-style: double;
 }
 
 .WebsiteProj img, .WhiteboardProj img {

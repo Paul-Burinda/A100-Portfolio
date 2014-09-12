@@ -1,0 +1,89 @@
+.separator-story {
+	margin-top: 30px;
+	background-color: rgba(34,65,96,0.1);
+}
+
+.student-comment {
+	background-size: 100%;
+}
+
+.one-third-comment {
+	float: left;
+	margin-right: 1%;
+	background-color: rgba(0,0,0,0.0);
+	border-radius: 2px;
+	padding: 10px 0;
+	position: relative;
+}
+
+.one-third-comment:first-child {
+	width: 50%;
+}
+
+.one-third-comment:nth-child(2) {
+	width: 10%;
+}
+
+.one-third-comment:last-child {
+	width: 35%;
+}
+
+/********************************/
+
+.testimonials .section-inner {
+	background-color: ;green;
+	min-height: 100px;
+	position: relative;
+}
+
+#parner .testimonials .section-inner .student-circle {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-size: 100%;
+	border-radius: 150px;
+}
+
+.testimonials .section-inner .left {
+	left: 80px;
+}
+
+.testimonials .section-inner .right {
+	top: 0px;
+	right: 80px;
+}
+
+
+.testimonials .section-inner .nav-left {
+	color: rgba(122,2,33,0.8);
+	position: absolute;
+	text-align: center;
+	line-height: 100px;
+	top: 0px;
+	left: 0px;
+}
+
+.testimonials .section-inner .nav-right {
+	color: rgba(122,2,33,0.8);
+	position: absolute;
+	text-align: center;
+	line-height: 100px;
+	top: 0px;
+	right: 0px;
+}
+
+.student-info {
+	margin-top: 20px;
+	font-size: 15 !important;
+	opacity: 0.8;
+}
+
+.circle  {
+	width: 100px;
+	height: 100px;
+	background-color: black;grey;
+	border-radius: 150px;
+	border: 1px solid grey;
+	margin: auto !important;
+	background-size: 100%;
+}

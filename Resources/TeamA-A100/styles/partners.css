@@ -1,0 +1,62 @@
+/****** SMALLER HEADING *******/
+.smaller-headline {
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Raleway-Medium";
+	font-size: 28px;
+	padding: 30px 0;
+}
+
+.select-partners {
+	background-color: ;red;
+}
+
+.one-forth {
+	width: 23%;
+	float: left;
+	margin-right: 2%;
+	height: 80px;
+	border-radius: 2px;
+	padding: 0px 0 10px;
+
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.one-forth a {
+	width: 100px;
+	height: 30px;
+}
+
+@media (max-width: 600px) {
+  	.one-forth {
+  		width: 49%;
+  		margin-bottom: 20px;
+  	}
+
+  	.multi-column .one-forth:nth-child(2) {
+		margin-right: 0;
+	}
+}
+
+.indie-soft {
+	background-image: url("../images/logos/indie_thegrid.jpg");
+}
+
+.mediacrossing {
+	background-image: url("../images/logos/mc2.png");
+}
+
+.broadstripes {
+	background-image: url("../images/logos/broadstripes.png");
+}
+
+.actualfood {
+	background-image: url("../images/logos/actualfood.png");
+}
+
+@media (max-width: 800px) {
+  	#map_canvas {
+  		width: 95%;
+  	}
+}

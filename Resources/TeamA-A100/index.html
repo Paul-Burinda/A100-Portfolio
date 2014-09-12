@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="styles/html5/normalize.css">
+        <link rel="stylesheet" href="styles/html5/main.css">
+
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/fonts.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/carousel.css">
+        <link rel="stylesheet" href="styles/partners.css">
+        <link rel="stylesheet" href="styles/responsive.css" media="screen and (max-width: 800px)">
+        <link rel="stylesheet" href="styles/responsive_head.css" media="screen and (max-width: 440px)">
+        <script src="scripts/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div style="height:66px;"></div> <!-- an invisible shadow did below the absolutely positioned header -->
+
+        <!-- header with navigation bar; absolute position -->
+        <div class="main-header section-fullwidth absolute-head">
+            <div class="section-inner">
+                <div class="header clearfix">
+                    <div class="nav main-nav">
+                        <ul class="first animate">
+                            <li><a href="#theprogram" class="program_link goto active-link">THE PROGRAM</a></li>
+                            <li><a href="#ourpartners" class="partners_link goto">EMPLOYERS</a></li>
+                            <li><a href="#" class="goto aboutus_link">ABOUT US</a></li>
+                        </ul>
+                        <ul class="second">
+                            <li><a href="#" class="apply-btn hidden-apply">MENU</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- header for screens less than 600px in width. it is hidden otherwise --> 
+        <div class="section-fullwidth hidden-nav nav">
+            <ul>
+                <li><a href="#theprogram" class="program_link goto active-link">THE PROGRAM</a></li>
+                <li><a href="#ourpartners" class="partners_link goto">EMPLOYERS</a></li>
+                <li><a href="#" class="goto aboutus_link">ABOUT US</a></li>
+            </ul>
+        </div>
+
+        <!-- the banner with the logo and welcome message(s) -->
+        <div class="section-fullwidth welcome-msg" id="top-banner">
+            <div class="section-inner msg main-msg">
+                Become a Software Developer
+            </div>
+            <div class="a100logo-class">
+                <img src="images/a100-logo.png">
+            </div>
+            <div class="section-inner msg detail-msg" id="advert">
+                A100 is a free eight-week web development and job placement program. Interested?
+            </div>
+            <div class="application-link">
+                <a href="Application2.html" target="_blank" class="apply-btn">Apply Now</a> 
+            </div>
+        </div>
+
+        <!-- there are three main sections: program, employers or partners, and about us -->
+        <!-- PROGRAM SECTION starts -->
+        <section id="program">
+            <div class="section-inner heading-line">
+                <p class="one-title">THE PROGRAM</p>
+            </div>
+
+            <div>
+                <div class="application section-inner program clearfix multi-column">
+                    <div class="one-half apply ">
+                        <h2 class="heading">Join Our Software Development Training Program</h2>
+                        <div class="text-content">
+                            Are you passionate about software development and looking to get involved in the CT tech scene? A100 offers applicants the opportunity to both attain the technical ability to write software, as well as develop interpersonal skills that startups seek in their team members.
+                            <ul style="padding: 0px;">
+                                <li><a href="Application2.html" target="_blank" class="apply-btn apply-hidden">Apply</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="one-half apply apply-image">
+                    </div>
+                </div>
+
+                <div class="training section-inner program clearfix multi-column">
+                    <div class="one-half apply top apply-image">
+                    </div>
+                    <div class="one-half apply" style="margin-right: 0;">
+                        <h2 class="heading">Learn the sought after software development skills</h2>
+                        <div class="text-content">
+                            Apprentices are trained according to guidelines set up by the same partner companies that are looking to hire by the end of the program. Throughout the applicants will become familiar with modern web development, the agile development philosophy and scrum, mobile development, and much more.
+                        </div>
+                    </div>
+                    <div class="one-half apply bottom apply-image">
+                    </div>
+                </div>
+
+                <div class="opportunities section-inner program clearfix multi-column">
+                    <div class="one-half apply">
+                        <h2 class="heading">Get paired up with employers</h2>
+                        <div class="text-content">
+                            A100 works to match its apprentices up with their ideal position on the new haven tech. A100 alumni have been successfully matched with paid jobs at companies such as Independent Software, Broadstripes, MediaCrossing, and ActualFood.
+
+                        </div>
+                    </div>
+                    <div class="one-half apply apply-image">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section-fullwidth testimonials" style="margin-top: 40px;">
+                <div class="section-inner"> 
+                    <i class="fa fa-angle-left fa-3x nav-left"></i>
+                    <i class="fa fa-angle-right fa-3x nav-right"></i> 
+                    <div class="carousel">
+                        <ul class="panes"></ul>
+                    </div>
+                </div>
+            </div>
+
+        </section> <!-- end of PROGRAM SECTION -->
+
+        <!-- PARTNERS section starts here -->
+        <section id="partners">
+            <div class="section-inner heading-line" style="margin-bottom: 20px;">
+                <p class="one-title">EMPLOYERS</p>
+            </div>
+
+            <div class="application section-inner partners program clearfix multi-column">
+                
+                <div class="one-half apply ">
+                    <h2 class="heading">Looking for your next great developer hire?</h2>
+                    <div class="text-content">
+                        At A100, we work with students and graduates from all around Connecticut, training them in skills and technologies they will need in the job field, and getting them apprenticeships on real projects in Agile teams. We work with partner employers to find the right candidates. By partnering with A100, you will gain access to one of the best pools of new developer talent in connecticut.
+                        <ul style="padding: 0px;">
+                            <li><a href="#" class="apply-btn apply-hidden">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="one-half apply employers-image"></div>
+            </div>
+
+            <div class="section-inner">
+                <div class="smaller-headline">Select Partner Companies</div>
+            </div>
+
+            <div class="section-inner select-partners clearfix multi-column">
+                <div class="one-forth indie-soft">
+                    <a href="http://indie-soft.com/"></a>
+                </div>
+                <div class="one-forth mediacrossing"></div>
+                <div class="one-forth broadstripes"></div>
+                <div class="one-forth actualfood"></div>
+            </div>
+
+            <div class="section-fullwidth testimonials" style="margin-top: 40px;">
+                <div class="section-inner"> <!-- un-hide the i-tags when you have more than testimonial -->
+                    <!-- <i class="fa fa-angle-left fa-3x nav-left"></i>
+                    <i class="fa fa-angle-right fa-3x nav-right"></i>  -->
+                    <div class="carousel">
+                        <ul class="panes2"></ul>
+                    </div>
+                </div>
+            </div>
+
+        </section> <!-- PARTNERS section ends here -->
+
+
+        <!-- ABOUT US section begins -->
+        <section id="aboutus">
+            <div class="section-inner heading-line" style="margin-bottom: 20px;">
+                <p class="one-title">ABOUT US</p>
+            </div>
+
+            <div class="section-inner">
+                <div class="smaller-headline">Why A100?</div>
+            </div>
+            <div class="section-inner aboutus_msg">
+                In Connecticut local employers lack the ability to match software development talent and computer science students to the local jobs they are looking to fill. In addition, students in the area are not always fully aware or prepared for the available jobs. Through A100 we recruit students or graduates who want to stay in connecticut, and through our 2 ½ month free training, we teach them how to work in Agile teams, prepare their skills to the needs of the employer, and then we match them up with local companies and startups who are seeking developers.
+            </div>
+
+            <div class="section-inner clearfix program" >
+                <div class="section-inner">
+                    <a target="_blank" href="//player.vimeo.com/video/63910158">
+                        <img src="./images/logos/vimeo.png" style="width: 100%;">
+                    </a>            
+                </div>
+
+
+                <div class="section-inner">
+                    <div class="smaller-headline">Location & Contact Info</div>
+                </div>
+
+                <div class="section-inner" id="footer">
+                    <div class = "footer_P big-screen">A100 Project Manager: <a href = "mailto:krishna@indie-soft.com?subject=A100 Program">krishna@indie-soft.com<a></div>
+                    <div class = "footer_P small-screen">Email: <a href = "mailto:krishna@indie-soft.com?subject=A100 Program">krishna@indie-soft.com<a></div>
+                    <div class = "footer_P">760 Chapel St. New Haven, CT 06510</div>
+                    <div class = "footer_P">888-224-1340</div>
+                </div>
+                
+                <div class="section-inner" style="margin-bottom: 20px;">
+                    <a target="_blank" href ="https://www.google.com/maps/place/The+Grove/@41.3048191,-72.9233514,17z/data=!3m1!4b1!4m2!3m1!1s0x89e7d84ae4266641:0x69bb8d2eb9fda8ac">
+                        <img src="./images/logos/grove_map.png" style="width: 100%;">
+                    </a>            
+                </div>
+            </div>
+
+        </section> <!-- ABOUT US section ends -->
+
+
+        <!-- FOOTER finally!! -->
+        <div class="section-fullwidth clearfix" id="footer_real">
+            <div class="section-inner">
+                <div style="float: left; font-size: 15px;" class="left_footer">A100 @ 2014</div>
+                <div style="float: right" class="right_footer">
+                    <img src="./images/logos/footer-logo-indie.png">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- SCRIPTS Section -->
+        <!-- underscore template for alumni testimonials -->
+        <script type="text/template" id="student-comments">
+                <li class="apprentice animate student_<%= i %>">
+                    <div class="student_img_container">                 
+                        <div class="student-circle student-comment left-image" style="background-image: url(images/students/<%= student.photo %>)"></div>
+                    </div>
+                    <div class="student-info" style="font-size: 16px;"><%= student.name %><br/> <span class="company"> <%= student.partner %></span></div>
+                    <div class="quotation"></div>
+                    <i class="fa fa-caret-left fa-1x quote-arrow"></i>
+                    <div class="comment">
+                        <i class="fa fa-quote-left fa-1x" style="font-size: ;15px;"></i> 
+                        <span style="line-height: 30px;"> <%= student.comment %> </span>
+                        <i class="fa fa-quote-right fa-1x" style="font-size: ;15px;"></i> 
+                        <br/><br/>
+                        <div class="student-info2" style="font-size: 16px;"><%= student.name %>.<span class="company"> <%= student.partner %></span></div>
+                    </div>
+                </li>
+        </script>
+
+        <!-- underscore template for partners testimonials -->
+        <script type="text/template" id="partner-comments">
+                <li class="apprentice animate partner_<%= i %>">
+                    <div class="student_img_container">                 
+                        <div class="student-circle student-comment left-image" style="background-image: url(images/partners/<%= student.photo %>)"></div>
+                    </div>
+                    <div class="student-info" style="font-size: 16px;"><%= student.name %><br/> <span class="company"> <%= student.partner %></span></div>
+                    <div class="quotation"></div>
+                    <i class="fa fa-caret-left fa-1x quote-arrow"></i>
+                    <div class="comment">
+                        <i class="fa fa-quote-left fa-1x" style="font-size: ;15px;"></i> 
+                        <span style="line-height: 30px;"> <%= student.comment %> </span>
+                        <i class="fa fa-quote-right fa-1x" style="font-size: ;15px;"></i> 
+                        <br/>
+                    </div>
+                </li>
+        </script>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="scripts/vendor/jquery-min.js"><\/script>')</script>
+        <script type="text/javascript" src="scripts/vendor/underscore-min.js"></script>
+        <script src="scripts/carousel.js"></script>
+        <script src="scripts/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
