@@ -56,8 +56,18 @@ p {
 }
 
 .WebsiteProj .panel-heading, .WhiteboardProj .panel-heading {
-  background: #006496;
+  background: #0B98AC;
   text-align: left;
+}
+
+.WebsiteProj h1, .WhiteboardProj h1 {
+  border-style: double;
+  background: #006496;
+  font-family:  'Montserrat', sans-serif;
+  color: white;
+  font-style: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .WebsiteProj h2, .WhiteboardProj h2 {
