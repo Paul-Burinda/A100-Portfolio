@@ -36,7 +36,7 @@ A100 Portfolio Sheet
 
 body {
   background: #ebecee;
-  padding-top: 70px;
+  z-index: 1100;
 }
 
 p {
@@ -308,10 +308,6 @@ padding: 50px;
 }
 
 @media (max-width: 767px) {
-
-  body {
-    padding-top: 140px;
-  }
 
   .carousel {
     height: 90%;
