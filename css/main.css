@@ -191,6 +191,7 @@ p {
   font-family:  'Montserrat', sans-serif;
   color: white;
   font-style: bolder;
+  padding-top: 30px;
 }
 
 .carousel-caption {
@@ -289,10 +290,6 @@ padding: 50px;
     color: white;
   }
 
-  .allCaps {
-    text-transform: uppercase;
-  }
-
   .textDarkBG {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -318,19 +315,14 @@ padding: 50px;
   }
 
   .carousel img {
-    width: 85%;
     max-height: 250px;
-    min-width: 250px;
+    max-width: 400px !important;
+    min-width: 320px;
+    width: 85%;
   }
 
   .carousel-caption {
     height: 42%;
     line-height: 200%;
     font-size: 80%;
-  }
-
-  @media (max-width: 399px){
-  	.carousel img {
-  		display: none;
-  	}
   }
