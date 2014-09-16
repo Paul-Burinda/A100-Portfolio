@@ -34,14 +34,10 @@ A100 Portfolio Sheet
   /* Sizing */
     .small { font-size: 1em; }
 
-body {
-  background: #ebecee;
-  z-index: 1100;
-}
-
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
   font-size: 20px;
+  color: #636363;
 }
 
 
@@ -121,9 +117,19 @@ p {
 
 /*  Accordion Styling
 -------------------------------------------------- */
+
+#Website-Proj {
+  background: white;
+}
+
+#Whiteboard-Proj {
+  background: #ebecee;
+}
+
 .WebsiteProj, .WhiteboardProj{
-  margin: 20px;
-  border-style: double;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
 }
 
 .WebsiteProj img, .WhiteboardProj img {
@@ -132,22 +138,27 @@ p {
   box-shadow: 7px 7px 7px #888888;
 }
 
-.WebsiteProj .panel-heading, .WhiteboardProj .panel-heading {
-  background: #006496;
-  text-align: left;
+.panel-heading {
+  background: #006496 !important;
 }
 
-.WebsiteProj h2, .WhiteboardProj h2 {
+.projectsText-h2 {
   font-family:  'Montserrat', sans-serif;
   font-style: italic;
   font-size: 17px;
   color: #636363;
 }
 
-.WebsiteProj h4, .WhiteboardProj h4 {
+.projectsText-h4 {
   font-family:  'Montserrat', sans-serif;
   color: white;
   font-style: bolder;
+}
+
+.projectsText-p {
+  font-style: italic;
+  font-size: 20px;
+  color: #636363;
 }
 
 #WebsiteAccordion, #WhiteBoardAccordion {
@@ -217,6 +228,7 @@ p {
 .carousel-caption p {
   font-style: italic;
   font-size: 200%;
+  color: white;
 }
 
 .carousel .item {
