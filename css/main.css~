@@ -47,15 +47,13 @@ p {
 
 /* Portfolio Header and Navigation Styling
 --------------------------------------------------*/
-.navbar-nav {
-  margin: 7.5px -15px;
-}
+
 .navbar-brand{
   float:left;
   height:50px;
   padding:1px 25px;
-  font-size:14px;
-  line-height:60px;
+  font-size:18px;
+  line-height:20px;
   color: #636363;
 }
 
@@ -73,11 +71,6 @@ p {
     text-align: center;
 }
 
-.navbar-inverse {
-  background-color: #3e3e3e;
-  border-color: #080808;
-}
-
 .navholder {
     list-style: none;
     font-size: 14px;
@@ -90,7 +83,7 @@ p {
 
 .dropdown {
     display:none;
-    background: linear-gradient(to bottom, #3e3e3e, #3e3e3e);
+    background: linear-gradient(to bottom, #333, #222);
     position: fixed;
 }
 
@@ -333,18 +326,3 @@ padding: 50px;
     line-height: 200%;
     font-size: 80%;
   }
-  @media (min-width: 768px) {
-  .navbar-left {
-    float: left !important;
-  }
-  .navbar-right {
-    float: right !important;
-  }
-}
-.media > .pull-right {
-  margin-left: 10px;
-}
-@media (min-width: 768px) {
-  .navbar-header {
-  }
-}
