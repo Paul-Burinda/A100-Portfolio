@@ -118,23 +118,22 @@ p {
 /*  Accordion Styling
 -------------------------------------------------- */
 
-#Website-Proj {
+#Website-Proj, #A100SiteRevamp {
   background: white;
 }
 
-#Whiteboard-Proj {
+#Whiteboard-Proj, #A100Application {
   background: #ebecee;
 }
 
-.WebsiteProj, .WhiteboardProj{
+.WebsiteProj, .WhiteboardProj, .SiteRevamp, .AppForm {
   margin-right: 20px;
   margin-left: 20px;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.WebsiteProj img, .WhiteboardProj img {
-  width: 200px;
-  height: 200px;
+.WebsiteProj img, .WhiteboardProj img, .SiteRevamp img, .AppForm img {
   box-shadow: 7px 7px 7px #888888;
 }
 
@@ -161,7 +160,7 @@ p {
   color: #636363;
 }
 
-#WebsiteAccordion, #WhiteBoardAccordion {
+#WebsiteAccordion, #WhiteBoardAccordion, #WebsiteRevamp, #ApplicationAccordion {
   box-shadow: 10px 10px 10px #888888;
 }
 

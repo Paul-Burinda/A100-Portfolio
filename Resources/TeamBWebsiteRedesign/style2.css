@@ -1,0 +1,517 @@
+body {
+background-color: lightgrey;
+}
+
+hr {border: 2px solid black;}
+
+a {color: #2978A1;
+	font-weight: bold;}
+a:hover {color: #831B15;}
+
+footer {text-align: center;
+		background-color: lightgrey;
+		padding: 2%;}
+
+.no-pad {padding: 0}
+.tan {color: tan;}
+.tan:hover {color: tan;
+			text-decoration: underline;}
+.white-hr {border: 2px solid white}
+#meetup-logo {height: 60px;
+			}
+
+.intro {
+	background-color: white;
+	padding: 0px 40px;
+	}
+	.intro h1 {/*font-size: 100px;*/
+				text-align: center;
+				font-weight: bold;}
+	
+	.intro h2 {font-size: 60px;}
+
+		.intro h2 {/*font-size: 70px;*/
+
+				text-align: center;}
+.intro-icon {width: 100px;}
+.long-row {max-width: 100%;}
+
+.home-about {color: white;
+			text-align: center;
+			padding: 0 40px;}
+	.home-about h2 {color: white;
+					font-size: 26px;
+					font-weight: bold;}
+	.home-about a {color: white;}
+	#info-home {background-color: #1B435E;
+			padding: 20px 20px;}
+
+	#info-home p {font-size: 20px;}
+.student-learn-icons {height: auto;
+				background-color: lightgrey;
+				text-align: center;
+				padding: 0px 20px;
+				margin-top: 0px;}
+	.student-learn-icons ul li {display: inline-block;
+							margin: 0 50px;}
+	.student-learn-icons ul li img {height: 75px;}
+.student-learn {padding-left: 5%;}
+.student-learn p{font-size: 20px;}
+
+.apply-button {height: auto;
+				width: 80%;
+				font-size: 40px;
+				border-radius: 20px;
+				}
+.apply-button-small {border-radius: 20px;
+					font-size: 30px;
+				}
+.apply-desc {background-color: #831B15;
+					color: white;
+					border-left: none;
+					border-top: none;
+					padding: 2%;
+					padding-bottom: 2%;
+					text-align: center;}
+
+	.apply-desc h2 {color: white;}
+	.apply-desc p {font-size: 24px;}
+
+.se-learn {margin: 80px 20px;}
+.se-timeline {height: auto;
+				background-color: #1B435E;
+				color: white;
+				text-align: center;
+				padding-top: 3%;
+				}
+	.se-timeline h2, .se-timeline h3{ color: white;}
+	.se-timeline h2 {font-size: 40px;}
+	.se-timeline h3 {font-size: 34px;}
+	.se-timeline ul li{display: inline-block;
+							margin: 0 40px;
+							text-align: center;}		
+.timeline-description {height: auto;
+						text-align: center;
+						width: 60%;
+						margin-left:auto;
+						margin-right: auto; }
+	.timeline-description p {font-size: 20px;}
+
+	.timeline-thumb {width: 80px;
+					font-size: 16px;}
+
+
+.se-testimonial {padding: 50px 0px;
+				background-color: lightgrey;
+				text-align: center;
+				}
+	/*.se-testimonial h4 {font-size: 20px;}*/
+
+.testimonial-thumb {margin-bottom: 20px;
+						}
+	.testimonial-thumb img{border-radius: 20%;
+					text-align: center;
+					display: inline-block;
+					vertical-align: top;
+					width: 150px;
+					height: 150px;
+					margin-bottom: 10px;}
+	.testimonial-thumb p {display: inline-block;
+							vertical-align: top;
+							width: 100%;
+							font-size: 16px;}
+
+
+.se-contain {background-color: lightgrey;}
+
+.se-intro-desc {background-color: white;
+		opacity: 0.9;
+		margin-top: 0;
+		padding-top: 6%;}
+	.se-intro-desc p {font-size: 20px;}
+
+
+/*header start*/
+#topbar {margin: 0 5%;
+		max-width: 100%;}
+#header-space {height: 10%;}
+#center-logo {display: inline-block;
+				margin-left: 40%;
+				position: absolute;
+				top: 0px;
+				z-index: 100;
+				margin-top: 0;
+				width: 200px;}
+#a100_text_small {display: none;}
+#a100_text li {margin-left: 42.5%;
+				padding-top: 5px;
+				position: absolute;
+				}
+#a100_text li a img {height: 32px;}
+#a100_text li a:hover {background-color: #333;}
+.top-bar-section ul li a {font-size: 32px;
+							}
+
+
+
+
+.top-bar-section ul li a {font-size: 18px;}
+
+/*header end*/
+
+/*about start*/
+#about-intro {background-image: url('img/people4.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	height: 400px;
+background-position:center;}
+
+#about-intro h1 {color: white;
+				padding: 10%;
+				}
+#about-contain {padding: 20px;
+				background-color: white;
+				border: 30px solid lightgrey}
+/*about end*/
+
+/* home page start*/
+
+#a100-home-desc {background-color: #691511;
+				margin-top: 15%;}
+
+#test1 {background-color: #691511;
+
+		margin-top: 20%;
+		padding: 20px 0 20px 20px;
+		}
+	#a100-home-desc h3 {color: white;
+						font-size: 26px;}
+#a100-desc-contain {background-image: url('img/cohort_photo_color.png');
+background-repeat: no-repeat;
+	background-size:100%;
+background-position:center;
+}
+
+#home2-intro {background-image: url('img/people.jpg');
+background-repeat: no-repeat;
+	background-size:100%;
+background-position:center;
+padding: 3% 0;
+	
+padding-right: 0;
+padding-left: 0;}
+#home-a100-desc {text-align: center;
+				padding: 100px 100px;}
+#home2-intro {
+	}
+
+/*>>>>>>> edited dark theme, added light theme*/
+#home-intro-students {
+					/*display: inline-block;*/
+					/*background-color: grey;*/
+					}
+	#home-intro-students h1 {color: white;}
+/*>>>>>>> 3cea943c1f68028adea26191ace0aa87d5bd6b6f*/
+	#home-intro-headline {width: 35%;
+						 margin-left: 5%;}
+	#home-intro-headline h1 {color: white;
+								font-size: 50px;}
+	#home-intro-headline h2 {color: white;
+								font-size: 40px;}
+#home-intro-partners {	display: inline-block;
+						vertical-align: bottom;
+						margin-top: 10%;
+					}
+	
+
+
+/*home page end*/
+
+
+/*students start*/
+.item2 {border: 10px solid white;}
+
+#student-intro {text-align: center;
+				background-image: url('img/people4.jpg');
+background-repeat: no-repeat;
+	background-size:100%;
+/*background-position:center;*/
+opacity: 0.8;
+padding-top: 2%;
+padding-bottom: 0;
+/*margin-top: 8%;*/
+}
+	
+
+/*students end*/
+
+/*employers start*/
+	
+#employer-intro {
+	text-align: center;
+	background-image: url('img/people4.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	/*background-position:center;*/
+	opacity: 0.8;
+	padding-top: 2%;
+padding-bottom: 0;
+}		
+/*employers end*/
+
+/*alumni start*/
+
+#alumni-intro {background-image: url('img/cohort_photo_color.png');
+background-repeat: no-repeat;
+	background-size:100%;
+background-position:center;
+opacity: 0.9;
+/*padding-top: 30%;*/
+}
+	#alumni-intro h2 {color: white;
+					padding: 25% 20% 5%}
+#alumni-portfolio {background-color: #1B435E;
+				margin: 80px 0;
+				padding: 40px 30px;
+				}
+	#alumni-portfolio h3 {text-align: right;
+						color: white;}	
+	#alumni-portfolio h4 {text-align: center;
+						color: white;}			
+
+#modal-flipbook {z-index: 100;
+				}
+	#modal-flipbook .flipbook {
+			border: 1px solid red;}
+		
+	.folio-page {border: 5px solid black;
+				background-color: lightgrey;
+				height: 100%;
+				}
+		.folio-page img {height: 150px;
+						 margin-right: 10px;}
+
+	.folio-img {height: 100%;}
+.alumni-testimonial-thumb img{border-radius: 20%;
+					text-align: center;
+					display: inline-block;
+					vertical-align: top;
+					margin-bottom: 6%;
+					margin-right: 20px;
+					height: 200px;
+					width: 200px;}
+
+.alumni-quote p {font-size: 36px;
+						text-align: center;}
+#top_quote {margin-bottom: 40px;}
+#bottom_quote {margin-top: 40px;
+				margin-bottom: 20px;
+				}
+	#bottom_quote p {text-align: left;}
+#alumni-portfolio-pics-contain  {margin-left: 120px;
+						}
+	.alumni-portfolio-pics {height: 200px;
+							width: 200px;
+							margin-bottom: 20px;}
+/*alumni end*/
+
+/*Apply start*/
+#apply-intro {background-image: url('img/people.jpg');
+				background-repeat: no-repeat;
+	background-size:100%;
+background-position:center;
+height: 35%;
+}
+
+#apply-intro h1{color: white;}
+.apply-form-contain {padding: 3%;}
+
+.apply-form {background-color: white;
+			padding: 5%;}
+/*apply end*/
+
+/*partner-apply start*/
+
+
+/*partner-apply end*/
+
+/*small screens*/
+
+@media only screen and (max-width: 40em) {
+
+	body {background-image: none;
+	}
+	#header-space {height: 10%;}
+	#center-logo {display: none;
+				margin-left: 5%;
+				position: absolute;
+				top: 10px;
+				z-index: 100;
+				margin-top: 0;
+				height: 100px;	
+				width: 100px;
+			}
+	#a100_text {display: none;}
+	#a100_text_small {display: inline;
+					height: 20px;
+					  	width: 50px;
+					  margin-left: 22px;
+					  margin-top: 10px;}
+	.top-bar-section ul li a {font-size: 20px;}
+	.intro {padding: 20px 20px;}
+		.intro h1 {font-size: 30px;
+				text-align: center;
+				font-weight: bold;}
+		.intro h2 {font-size: 36px;
+				text-align: center;}
+	.intro-icon {width: 100px;}
+	#info-home{padding: 10px;}
+	.se-timeline h2 {font-size: 20px;}
+	.se-timeline ul {margin: 0;}
+	.se-timeline ul li {margin: 0}
+	.timeline-thumb {width: 80px; 
+					font-size: 14px;}
+	.se-learn {margin: 50px 0;}
+	.testimonial-thumb {padding: 0;}
+	.testimonial-thumb img{border-radius: 20%;
+					text-align: center;
+					display: inline-block;
+					vertical-align: top;
+					width: 125px;}
+	.testimonial-thumb p {display: inline-block;
+							vertical-align: top;
+							width: 90%;
+							font-size: 16px;}
+	#home2-intro {background-image:none;
+		background-size: 100%;
+		margin-top: 0%;
+		padding: 0;}
+	#home-intro-headline {background-color: #1B435E;
+							width: 100%;}
+
+	#employer-intro {background-image: none;}
+	#student-intro {background-image: none;}
+	#a100-home-desc {margin-top: 0;
+			text-align: center;}
+	#about-intro {height: 200px;}
+	.student-learn-icons ul li {margin:0;}
+	.student-learn-icons ul li img {height: 50px;
+									}
+	.student-learn h2 {font-size: 25px;}
+	.student-learn p {font-size: 16px;}
+	.timeline-description {height: auto;
+							width: 100%;
+							}
+		.timeline-description p {font-size: 16px;}
+	#home-intro-headline{	margin-left: 0%;}
+	#home-intro-headline h1 {color: white;
+								font-size: 35px;}
+	#home-intro-headline h2 {color: white;
+								font-size: 25px;}
+#alumni-intro {margin: 0;
+				padding: 0;
+				height: 30%;
+				background-size: 150%;}
+	#alumni-intro h2 {font-size: 24px;
+						padding: 0;
+						padding-top: 150px;}
+#alumni-portfolio {padding: 10px 0;}
+#alumni-portfolio h3 { font-size: 20px;
+						text-align: center;}
+#alumni-portfolio-pics-contain  {margin-left: 0px;
+						}
+	.alumni-portfolio-pics {height: 15%;
+							width: 27%;
+							margin-bottom: 20px;}
+.alumni-testimonial-thumb {padding-left: auto;
+							padding-right: auto;
+							text-align: left;
+							font-size: 14px;
+							margin-bottom: 20px;}
+
+.alumni-testimonial-thumb img {width: 100px;
+								height: 100px;
+							display: inline-block;
+							vertical-align: top;
+							margin: 0 10px 0 0;
+							}
+.apply-desc div {padding: 0;}	
+.apply-button {font-size: 26px;}
+.apply-button-small img{width: 75px;}
+
+.alumni-quote p {font-size: 20px;
+						}
+.alumni-portfolio-pics {height: 100px;
+							width: 100px;
+							margin-bottom: 20px;}
+#bottom_quote p {text-align: center;}
+ }
+
+@media only screen and (max-width: 400px){
+	.alumni-testimonial-thumb p {width: 60%}
+	.alumni-testimonial-thumb img {width: 100px;
+								float: left;}
+	.alumni-portfolio-pics {height: 15%;
+							width: 45%;	}
+	#alumni-intro{height: 30%}
+		#alumni-intro h2 {padding-top: 100px;}
+	#about-intro {height: 150px;}
+}
+ /*medium screens*/
+ @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+ 	.intro {
+	/*border: 1px solid red;*/
+	background-color: white;
+	padding: 100px 100px;
+	}
+ 	.intro h1 {font-size: 70px;
+				text-align: center;
+				font-weight: bold;}
+	.intro h2 {font-size: 50px;
+				text-align: center;}
+	.intro {padding: 0;}
+	#topbar {margin: 0;
+		max-width: 100%;}
+		#topbar ul li a {font-size: 20px;}
+	
+	#home-intro-headline {width: 100%;
+							margin-top: 5%;
+							margin-left: 0%;}
+	#center-logo {
+				top: 100px;
+				margin-top: -100px;
+				height: 200px; 
+				width: 200px;}
+
+	/*.intro-icon {width: 150px;}*/
+	.se-timeline h2 {font-size: 28px;}
+	.se-timeline h3 {font-size: 24px;}
+	.se-timeline ul li {margin: 0 20px;}
+	.se-learn {margin: 50px 0;}
+	#home2-intro {background-size: 130%}
+	#a100-desc-contain {background-size: 110%;}
+
+	#employer-intro {background-image: none;}
+	#student-intro {background-image: none;}
+	.timeline-description {height: auto;
+							width: 80%;}
+
+	#a100-home-desc {margin-top: 6%;
+						width: 70%;}
+
+	.testimonial-thumb img{
+					width: 150px;}
+	.testimonial-thumb p {
+							width: 100%;
+							font-size: 16px;}
+	.apply-button {font-size: 30px;
+					padding: }
+
+	.alumni-testimonial-thumb p{margin-left: 20px;}
+	#alumni-quote-top p {font-size: 30px;}
+	#alumni-portfolio h3 {text-align: center;}
+ }
+ 
+
+
+

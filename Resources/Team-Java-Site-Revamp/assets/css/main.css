@@ -1,0 +1,754 @@
+
+
+/* Authors: A100 Apprentice Team C++
+ * Members: Chris Impastato, Julio Mansilla, Duke Noi, Carrrington Ward
+ * 
+ * Built as part of the Apprentice100 Program
+ * Winter Cohort 2014 */
+
+
+
+/** GLOBAL STYLES
+ ********************/
+
+  html { 
+	height: 100%; }
+  
+  body {
+    background: white;
+    color: #f5f6f7;
+    height: 100%; }
+
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none; }
+
+  a:link, a:visited, a:active {
+    font-weight: 600;
+    color: #f5f6f7;
+    text-decoration: none; }
+
+  a:link:hover, a:visited:hover, a:active:hover {
+    color: #e1e1e1;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s; }
+
+	/** CONTENT MODULES
+ ********************/
+
+  /* MODULES */
+    
+    /* Backgrounds */
+  #employerCallOut { 
+	background: #7b1219; }
+	
+  #programXS, #program, #testimonials, #curriculum, #FAQ, #Gallery {
+    background: #006496;
+    padding: 50px; }
+	
+  #samples, #technologies, #tuition, #applicants, #Success {
+    background: white;
+    padding: 50px; }
+	
+  #skills, #apply, #applyXS, #contact {
+    background: #ebecee;
+    padding: 50px; }
+	
+  #footer, #networks {
+    background: #3e3e3e;
+    padding: 50px; }
+
+  .noTopPadding { 
+	  padding-top: 0px; }
+	
+  .noBottomPadding { 
+	  padding-bottom: 0px; }
+  
+  /* Type */
+  /* Alignment */
+  
+  .centered { 
+	  text-align: center; }
+	
+  .rightAlign { 
+	  text-align: right; }
+	
+  .leftAlign { 
+	  text-align: left; }
+	
+  .allCaps { 
+	  text-transform: uppercase; }
+  
+  /* Margins */
+  
+  .topMarginSmall { 
+	  margin-top: 30px; }
+	
+  .topMarginMedium { 
+	  margin-top: 50px; }
+	
+  .topMarginBig {
+	  margin-top: 100px; }
+	
+  .bottomMargin { 
+	  margin-bottom: 30px; }
+	
+  .leftMargin { 
+	  margin-left: 30px; }
+	
+  .rightMargin { 
+	  margin-right: 30px; }
+  
+  /* Sizing */
+  
+  .small { 
+	  font-size: 1em; }
+  
+  /* Headers */
+  .headerDarkBG {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    letter-spacing: -.045em;
+    line-height: 1.3em;
+    color: white; }
+	
+  .headerLightBG {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    letter-spacing: -.045em;
+    line-height: 1.3em;
+    color: #7b7c7f; }
+	
+  .headerDarkBGXS {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    letter-spacing: -.045em;
+    line-height: 1.3em;
+    color: white; }
+
+   /* Content */
+   .textDarkBG {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.15em;
+    letter-spacing: -.045em;
+    color: white; }
+
+   .textLightBG {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.15em;
+    letter-spacing: -.045em;
+    color: #7b7c7f; }
+
+   .textDarkBGXS {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: -.045em;
+    color: white; }
+
+   .bodyContrastDarkBG{
+    color:#ddd; }
+
+   .textMatchBlue{
+    color: #006496;}
+	
+   #Success .textMatchBlue{
+    color: #006496;
+	font-size:1.4em;}
+	
+    /* HERO */
+   #hero {
+    display: table;
+    background: url("../img/heroBG.jpg") no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    min-height: 100%;
+    text-align: center; }
+
+   #heroContent {
+    display: table-cell;
+    vertical-align: middle; }
+
+   /* Type */
+   .heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: -.035em;
+    line-height: .95em;
+    color: #3e3e3e;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5% }
+
+   .subheading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.25em;
+    letter-spacing: -.045em;
+    line-height: 1.1em;
+    color: #7b7c7f;
+    padding-left: 5%;
+    padding-right: 5%; }
+
+   .companyLink {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: -.045em;
+    color: #7b1219; }
+
+   .moreInfo {
+    bottom: 30px;
+    left: 45.85%;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    letter-spacing: -.04em;
+    line-height: 1.1em;
+    color: #919191; }
+
+    /* Images */
+   #heroContentMain .img { 
+    max-height: 25em;
+    width: auto;
+    }
+
+   /* Links */
+   #heroContent a:hover {
+    color: #0091ba;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;}
+
+   #heroContent a {
+    color: #7b7c7f;
+    text-decoration: none; }
+
+
+    /* PROGRAM */
+    /* Type */
+   .emphasis {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.25em; }
+
+
+    /* TESTIMONIALS */
+    /* Text */
+   .testimonialQuote {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.2em;
+    font-size: 1.3em;
+    color: white;
+    margin-top: 10px; }
+
+   .testimonialSource {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.1em;
+    color: white; }
+
+    /* Images */
+   .topPadding { 
+    padding-top: 1px; }
+  
+    /* TECHNOLOGIES */
+
+    /* Tables */
+   #technologies tr td {
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle; }
+
+    /* Images */
+   .techLogo {
+    width: 120px;
+    height: auto;
+    padding: 5px; 
+    margin:5px;}
+
+   /* SKILLS */
+   /* Type */
+   .iconText {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.05em;
+    letter-spacing: -.005em;
+    line-height: 1.25em;
+    color: #3e3e3e;
+    padding-top: 10px;}
+
+    /* Images */
+
+    /* Tables */
+   #skills tr td { 
+    padding-top: 20px; }
+
+   /* CURRICULUM */
+
+   .test {
+    text-align: center;
+    vertical-align: middle; }
+      
+    /* Type */
+   .curriculumHeader {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: .9em;
+    letter-spacing: -0.045em;
+    color: white;
+    text-align: left; }
+
+   .curriculumHeader2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    line-height: 1.1em;
+    letter-spacing: -0.01em;
+    color: #3e3e3e;
+    text-align: left; }
+
+   
+   /* CONTACT */
+    
+    /* Type */
+   .contactHeader {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: -.01em;
+    text-align: left;
+    color: #3e3e3e; }
+        
+   .contactText {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #888d90; }
+
+    /* Images */
+   #contact i {
+    font-size: 25px;
+    color: #888d90;
+    text-align: left; }
+
+   .marginRight { 
+    margin-right: 20px; }
+	
+   #contact .facebook:hover { 
+    color: #3b5998; }
+	
+   #contact .twitter:hover { 
+    color: #2094CA; }
+	
+   #contact .mail:hover { 
+    color: #f39c12; }
+
+/** MOBILE CONTENT MODULES
+******************************/
+
+  /* Backgrounds XS */
+   #employerXS {
+    background: #006496;
+    padding: 5px; }
+
+   #testimonialsXS, #programXS {
+    background: #006496;
+    padding: 50px; }
+
+   #contactXS {
+    background: #ebecee;
+    padding: 50px; }
+  /* HERO XS */
+
+    /* Type */
+   .subheadingXS {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+    letter-spacing: -.045em;
+    line-height: 1.1em;
+    /*color: #7F8C8D;*/
+    color: #7b7c7f; }
+
+   .subheadingXS a:hover {
+    color: #0091ba;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s; }
+
+   .subheadingXS a {
+    color: #7b7c7f;
+    text-decoration: none; }
+
+   .companyLinkXS {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: .95em;
+    letter-spacing: -.045em;
+    color: #7b1219; }
+
+    /* Images */
+   .heroApplyXS {
+    padding-top: 15px;
+    padding-bottom: 50px; }
+
+  /* Program XS */
+    /* Type */
+	
+   .emphasisXS {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1em; }
+
+  /* Employer XS */
+    /* Text */
+	
+   .employerXS {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: .70em;
+    letter-spacing: -.045em;
+    color: white; }
+
+  /* Contact XS */
+
+    /* Images */
+   #contactXS i {
+    font-size: 25px;
+    color: #888d90;
+    margin-right: 20px;
+    text-align: left; }
+	
+   #contactXS .facebook:hover { 
+    color: #3b5998; }
+	
+   #contactXS .twitter:hover { 
+    color: #2094CA; }
+	
+   #contactXS .mail:hover { 
+    color: #f39c12; }
+		
+	/* Accordion*/
+	
+   .headingColor:hover {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+    color: #777; }
+	
+   .panel-heading a, .panel-heading a:focus, .headingColor {
+    text-decoration: none;
+    color: #006496; }
+	
+   .accText {
+    background: #006496; }
+ 
+   .unstyledList {
+    list-style-type: none; }
+  
+   .fatFont{
+    font-weight: 600; }
+
+  /*Modal Nuances*/
+   .filler{
+    width:100%;
+    height:100%;}
+
+   .iframe-modal {
+    max-height:70%;
+    padding:none;
+    position: relative;
+    overflow: hidden;
+    border: 2px #FFFFFF solid;}
+
+   .modal-footer{
+    border-top:3px #FFFFFF solid;}
+
+   .iframe-modal-form {
+    max-height:70%;
+    position: relative;
+    overflow: hidden;}
+    
+  /* success Stories*/
+
+  .blueBackground{
+   background: #006496;}
+
+  .padding{
+    padding: 20px;}
+
+  .addBorder{
+    border:2px #006496 solid;
+    border-radius: 25px;}
+
+  .whiteBG{
+    background:white;
+    border-radius: 25px;}
+
+  .portraitTailor{
+   border:2px #006496 solid;
+    background-color: #006496;
+    margin:3px;
+    height: 110px;
+    max-width: 100px;
+    vertical-align: center;}
+
+  #success .vertAlign{
+    margin-top: 1%;
+    padding:1%;}
+
+  #success  .filler{ 
+    width:70%;
+    height:90%;}
+
+  .goNationfiller{
+    padding: 4%;
+    max-width:250px;}
+
+  .logoLimit{
+    max-width: 175px;
+    padding:4%;}
+
+  .blueText{
+    color:006496;}
+
+  .holdHeight{
+    min-height:250px;}
+
+  .xsPadding{
+    padding:10px;}
+
+  .equalizer{
+    min-height:300px; }
+
+  .seventyHeight{
+  height:250px; }
+
+  #Success .topMarginSmall{
+    margin-top:10px;
+    margin-bottom:10px;}
+
+  .noGutter{
+    padding-left:none;
+    padding-right:none;}
+
+  /* code repo*/
+  a.list-group-item {
+    height:auto;
+    height:220px;}
+
+  a.list-group-item.active small {
+    color:#fff;}
+
+  .picHolder{
+      max-width:190px;}
+
+    /* photo Gallery*/
+
+  figure, figcaption {
+    display: block; }
+  
+  #polaroid{
+    width:100%;
+	  overflow:hidden;
+    padding:20px 10px; }
+	
+  #polaroid img{
+    max-width:100%; }
+	
+  #polaroid figure{
+    float:left;
+    position:relative;
+    width:200px;
+    margin:10px 10px;
+    padding: 6px 8px 10px 8px;
+    -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    background: #eee6d8;
+    background: -webkit-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: -moz-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: -o-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    -webkit-transform:rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    -webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/ }
+
+  #polaroid figure:nth-child(even) {
+    -webkit-transform:rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+    -webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
+    -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, .75); }
+	
+  #polaroid figure:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left:5px;
+    top: -15px;
+    width: 75px;
+    height: 25px;
+    background-color: rgba(222,220,198,0.7);
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg); }
+	
+  #polaroid figure:nth-child(even):before {
+    left:150px;
+    top: -15px;
+    width: 55px;
+    height: 25px;
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    -ms-transform: rotate(12deg); }
+
+  #polaroid figcaption{
+    text-align:center;
+    font-family: 'Reenie Beanie', cursive; /*Reenie Beanie is available through Google Webfonts http://code.google.com/webfonts/specimen/Reenie+Beanie*/
+    font-size:1.3em;
+    color:#454f40;
+    letter-spacing:0.09em; }
+  
+  /**IE Hacks - see http://css3pie.com/ for more info on how to use CS3Pie and to download the latest version**/
+  
+  #polaroid figure{
+    -pie-background: linear-gradient(#ede1c9, #fef8e2 20%, #f2ebde 60%);
+    behavior: url(assets/css/PIE.htc);
+    position:relative; /*required to make PIE work*/
+    padding-top:10px\9;
+    padding-right:10px\9; }
+	
+  .item{
+    height: 400px;
+    background: #006496;  }
+
+  /*carousel setyle*/
+  /* cancel background image gradient */
+  .carousel-control.left-flat {
+    right: auto;
+    left: 15px; }
+	
+  /* override background image gradient */
+  .carousel-control.right-flat {
+    right: 15px;
+    left: auto; }
+
+  .handWritten{
+    font-family: 'Reenie Beanie', cursive;
+    font-size:1.3em;
+    letter-spacing:0.09em; }
+
+	/* offer info partner link*/
+  .shape{ 
+    border-style: solid; 
+	  border-width: 0 70px 40px 0; 
+	  float:right; 
+	  height: 0px; 
+	  width: 0px;
+    -ms-transform:rotate(360deg); /* IE 9 */
+    -o-transform: rotate(360deg);  /* Opera 10.5 */
+    -webkit-transform:rotate(360deg); /* Safari and Chrome */
+    transform:rotate(360deg); }
+
+  .offer{
+    background:#fff; 
+	  border:1px solid #ddd; 
+	  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+	  margin: 15px 0; 
+	  overflow:hidden; }
+	
+  .offer-radius{
+    border-radius:7px; }
+
+  .offer-primary {  
+    border-color: #428bca; }
+
+  .offer-primary .shape{
+    border-color: transparent #428bca transparent transparent;
+    border-color: rgba(255,255,255,0) #428bca rgba(255,255,255,0) rgba(255,255,255,0); }
+
+  .shape-text{
+    color:#fff; 
+	  font-size:12px; 
+	  font-weight:bold; 
+	  position:relative; 
+	  right:-40px; 
+	  top:2px; 
+	  white-space: nowrap;
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -o-transform: rotate(360deg);  /* Opera 10.5 */
+    -webkit-transform:rotate(30deg); /* Safari and Chrome */
+    transform:rotate(30deg); } 
+   
+  .offer-content{
+    padding:0 20px 10px; }
+
+  .noMargin{
+    margin-top:0px;
+    margin-bottom: 0px; }
+
+  .vertOfferCenter{
+    margin-top:2%; }
+
+/*partner company logos tailoring*/
+
+    .indieLogo{
+      width: 140%;
+      margin-left:-20%; }
+
+    .foodLogo{
+      width: 80%;
+      margin-top:7%;
+      margin-left:7%; }
+
+    .citiLogo{
+      width: 90%; }
+
+    .authLogo{
+      width:70%;}
+
+    .interLogo{
+      width: 90%;
+      margin-top:10%;}
+      
+    .crossingLogo{
+      width:80%;
+      border-radius:20px; }

@@ -1,0 +1,10 @@
+/* code repo*/
+  a.list-group-item {
+    height:auto;
+    height:220px;}
+
+  a.list-group-item.active small {
+    color:#fff;}
+
+  .picHolder{
+      max-width:190px;}
