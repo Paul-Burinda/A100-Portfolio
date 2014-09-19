@@ -127,14 +127,10 @@ p {
 }
 
 .WebsiteProj, .WhiteboardProj, .SiteRevamp, .AppForm {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.WebsiteProj img, .WhiteboardProj img, .SiteRevamp img, .AppForm img {
-  box-shadow: 7px 7px 7px #888888;
 }
 
 .panel-heading {
@@ -158,10 +154,6 @@ p {
   font-style: italic;
   font-size: 20px;
   color: #636363;
-}
-
-#WebsiteAccordion, #WhiteBoardAccordion, #WebsiteRevamp, #ApplicationAccordion {
-  box-shadow: 10px 10px 10px #888888;
 }
 
 /* Carousel navbar
@@ -324,6 +316,11 @@ padding: 50px;
 
 @media (max-width: 767px) {
 
+  .WebsiteProj, .WhiteboardProj, .SiteRevamp, .AppForm {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
   .carousel {
     height: 90%;
   }
@@ -339,23 +336,26 @@ padding: 50px;
     width: 85%;
   }
 
+  .navbar-brand {
+    line-height: 50px;
+  }
+
   .carousel-caption {
     height: 42%;
     line-height: 200%;
     font-size: 80%;
   }
-  @media (min-width: 768px) {
+ .media > .pull-right {
+  margin-left: 10px;
+  } 
+}
+
+@media (min-width: 768px) {
   .navbar-left {
     float: left !important;
   }
   .navbar-right {
     float: right !important;
   }
-}
-.media > .pull-right {
-  margin-left: 10px;
-}
-@media (min-width: 768px) {
-  .navbar-header {
-  }
+  
 }
