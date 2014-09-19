@@ -345,9 +345,10 @@ padding: 50px;
     line-height: 200%;
     font-size: 80%;
   }
+  /*
  .media > .pull-right {
   margin-left: 10px;
-  } 
+  } */
 }
 
 @media (min-width: 768px) {
@@ -358,4 +359,11 @@ padding: 50px;
     float: right !important;
   }
   
+  .navbar-nav {
+    margin: -50px 60px;
+  }
+
+  #ApplyButton, #HireButton {
+    margin-top: -5px;
+  }
 }
