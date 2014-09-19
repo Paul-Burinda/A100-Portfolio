@@ -118,11 +118,11 @@ p {
 /*  Accordion Styling
 -------------------------------------------------- */
 
-#Website-Proj, #A100SiteRevamp {
+#Website-Proj,  #A100Application{
   background: white;
 }
 
-#Whiteboard-Proj, #A100Application {
+#A100SiteRevamp{
   background: #ebecee;
 }
 

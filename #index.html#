@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A100 Portfolio</title>
+  <link rel="stylesheet" href="css_bs/bootstrap.min.css"></link>
+  <link rel="stylesheet" href="css/main.css"></link>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,300italic,600italic,400,300,600,700,800|Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link >
+  <style id="holderjs-style" type="text/css"></style>
+  </head>
+     <section id="A100ProjectBanner"> 
+      <div class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header pull-left">
+            <a class="navbar-brand" href="http://www.indie-soft.com/a100" target="_blank"><img class="img-responsive" src="resources/img/logo.png" /></a>
+          </div>
+          <div class="navbar-header pull-right">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+             </button>
+            <a class="navbar-brand pull-right" href="http://www.formstack.com/forms/?1431268-XiMahhyQLI">Apply Now</a>
+            <a class="navbar-brand pull-right" href="http://www.formstack.com/forms/?1453552-6NRer6Wuik">Hire Now</a>
+          </div> <!--/.navbar-header-->
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#ws">New A100 Website</a></li>                  
+                    <li><a href="#Whiteboard-Proj">Jobs Board for The A100 Whiteboard</a></li>
+                    <li><a href="#A100SiteRevamp">The A100 Website, Revisited</a></li>
+                    <li><a href="#A100Application">Prototype A100 Student Application</a></li>
+                  </ul>
+              </li> 
+              <li>  
+               <a href="#Apprentice-Carousel">Alumni</a>
+              </li>
+             </ul><!--/.nav navbar-nav-->
+          </div><!--/.nav-collapse -->
+
+
+  
+        </div><!--/.container-fluid-->
+      </div><!--/.navigation-->
+    </section>
+
+  <body>
+    
+
+    <section id="Website-proj">
+      <div id="ws" class="WebsiteProj centered">
+      <h1>New A100 Website</h1>
+      <h2 class="projectsText-h2">Apprentices engaged in the challenge of redesigning the A100 website, demonstrating their training and acquired skills in front-end web development. The winning design was selected as the new A100 site.<h2>
+        <div class="panel-group" id="WebsiteAccordion">
+            <div class="panel panel-default">
+                <div class="panel-heading leftAlign">
+                    <h4 class="panel-title projectsText-h4">
+                        <a data-toggle="collapse" data-parent="#WebsiteAccordion" href="#TeamCPlusPlus">Team C++</a>
+                    </h4>
+                </div>
+
+                <div id="TeamCPlusPlus" class="panel-collapse collapse in">
+                    <div class="panel-body text-center">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <p>Team: Chris Impastato, Julio Mansilla, Carrington Ward</p>
+                          <p>Winter Cohort 2014</p>
+                          <br> <br>
+                          <p>"The A100 accelerated my programming career! It complemented what I learned in school and thanks to my new set of skills and agile training, I got hired by independent-software!"-Julio Mansilla</p>
+                        </div>
+                        <div class="col-md-4">
+                          <a href="http://indie-soft.com/a100" target="_blank"><img src="resources/img/A100RedesignC++.png" class="img-responsive imgCenter" alt="A100 Site"></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading leftAlign">
+                    <h4 class="panel-title projectsText-h4">
+                        <a data-toggle="collapse" data-parent="#WebsiteAccordion" href="#TeamA">Team A</a>
+                    </h4>
+                </div>
+
+                <div id="TeamA" class="panel-collapse collapse">
+                    <div class="panel-body text-center">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <p>Team: Victor Mutai, Kevin Martindale, John Devivo</p>
+                          <p>Winter Cohort 2014</p>
+                          <br> <br>
+                          <p>"This project turned me from a lone wolf programmer to a team player." -Victor Mutai</p>
+                        </div>
+                        <div class="col-md-4">
+                          <a href="Resources/TeamA-A100/index.html" target="_blank"><img src="resources/img/A100RedesignA.png" class="img-responsive imgCenter" alt="A100 Site"></a>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading leftAlign">
+                    <h4 class="panel-title projectsText-h4">
+                      <a data-toggle="collapse" data-parent="#WebsiteAccordion" href="#TeamB">Team B</a>
+                    </h4>
+                  </div>
+
+                  <div id="TeamB" class="panel-collapse collapse">
+                    <div class="panel-body text-center">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <p>Team: Jeffrey Poch, Ujeli Jaisi, Jon Droniak</p>
+                          <p>Winter Cohort 2014</p>
+                          <br> <br>
+                          <p>"We used Foundation for most of the css, a flipbook-like plugin for the portfolio, and a bit of javascript" -Jeffrey Poch</p>
+                        </div>
+                        <div class="col-md-4">
+                          <a href="Resources/TeamBWebsiteRedesign/index.html" target="_blank"><img src="resources/img/A100RediesignB.png" class="img-responsive imgCenter" alt="Team B Site Redesign"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="Whiteboard-Proj">
+      <div id="wb" class="WhiteboardProj centered">
+        <h1>Jobs Board for The A100 Whiteboard</h1>
+        <h2 class="projectsText-h2">Random Text</h2>
+        <div class="panel-group" id="WhiteBoardAccordion">
+          <div class="panel panel-default">
+            <div class="panel-heading leftAlign">
+                <h4 class="panel-title projectsText-h4">
+                    <a data-toggle="collapse" data-parent="#WhiteBoardAccordion" href="#TeamDolphinMafia">Team Dolphin Mafia</a>
+                </h4>
+            </div>
+
+            <div id="TeamDolphinMafia" class="panel-collapse collapse in">
+              <div class="panel-body text-center">
+                <div class="row">
+                  <div class="col-md-8">
+                    <p>Team: Thomas Sonnemann, Nicole Flokos, Kyle Charron</p>
+                    <p>Winter Cohort 2014</p>
+                    <br> <br>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="A100SiteRevamp">
+      <div id="SiteRevamp" class="SiteRevamp centered">
+      <h1>The A100 Website, Revisited</h1>
+      <h2 class="projectsText-h2">Towards enhancing the A100 website, Apprentices worked on revamping the A100 website with cool features within a 4 week sprint. Check out their projects<h2>
+        <div class="panel-group" id="WebsiteRevamp">
+            <div class="panel panel-default">
+                <div class="panel-heading leftAlign">
+                    <h4 class="panel-title projectsText-h4">
+                        <a data-toggle="collapse" data-parent="#WebsiteRevamp" href="#TeamCupOfJava">Team Cup::Of->Java</a>
+                    </h4>
+                </div>
+
+                <div id="TeamCupOfJava" class="panel-collapse collapse in">
+                    <div class="panel-body text-center">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <p>Team: Blake Praharaj, Solomon Lee, Nitish Mathur</p>
+                          <p>Summer Cohort 2014</p>
+                          <br> <br>
+                          <p>œôòüA100 gave me the opportunity to tactfully enter the job market for computer science, and bridged the gap that education without real world experience had left on my resume.œôòý -Blake Praharaj</p>
+                        </div>
+                        <div class="col-md-4">
+                          <a href="Resources/Team-Java-Site-Revamp/index.html" target="_blank"><img src="resources/img/TeamJavaRevamp.png" class="img-responsive imgCenter" alt="Team Cup::Of->Java Site"></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading leftAlign">
+                    <h4 class="panel-title projectsText-h4">
+                        <a data-toggle="collapse" data-parent="#WebsiteRevamp" href="#TeamBranchingBad">Team Branching Bad</a>
+                    </h4>
+                </div>
+
+                <div id="TeamBranchingBad" class="panel-collapse collapse">
+                    <div class="panel-body text-center">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <p>Team: Scott Russell, Ahmet Sen, Tim Smith</p>
+                          <p>Summer Cohort 2014</p>
+                          <br> <br>
+                          <p></p>
+                        </div>
+                        <div class="col-md-4">
+                          <a href="Resources/TeamBranchingBadSiteRevamp/index.html" target="_blank"><img src="resources/img/BranchingBadRevamp.png" class="img-responsive imgCenter" alt="Team Branching Bad Site"></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="A100Application">
+      <div id="AppForm" class="AppForm centered">
+        <h1>Prototype A100 Student Application</h1>
+        <h2 class="projectsText-h2">Apprentices redesigned the A100 application form by incorporating a front-end form and a MySQL database.  This was a backend project.</h2>
+        <div class="panel-group" id="ApplicationAccordion">
+          <div class="panel panel-default">
+            <div class="panel-heading leftAlign">
+                <h4 class="panel-title projectsText-h4">
+                    <a data-toggle="collapse" data-parent="#ApplicationAccordion" href="#TeamNab">Team Nab</a>
+                </h4>
+            </div>
+
+            <div id="TeamNab" class="panel-collapse collapse in">
+              <div class="panel-body text-center">
+                <div class="row">
+                  <div class="col-md-8">
+                    <p>Team: Blake Praharaj, Nicholas Aponte, Ahmet Sen</p>
+                    <p>Summer Cohort 2014</p>
+                    <br> <br>
+                    <p>"We decided to create a native application form in order to see if we could effectively recreate an existing product while adding specific functionality based on the product owner's needs" -Blake Praharaj</p>
+                  </div>
+
+                  <div class="col-md-4">
+                    <a href="https://github.com/blakekp/TEAM_NAB_A100_ApprenticeForm" target="_blank"><img src="resources/img/ApplicationTeamNAB.png" class="img-responsive imgCenter" alt="Team NAB GitHub"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+              <div class="panel-heading leftAlign">
+                  <h4 class="panel-title projectsText-h4">
+                      <a data-toggle="collapse" data-parent="#ApplicationAccordion" href="#TeamLinearSolutions">Team LiNeaR Solutions</a>
+                  </h4>
+              </div>
+
+              <div id="TeamLinearSolutions" class="panel-collapse collapse">
+                  <div class="panel-body text-center">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p>Team: Scott Russell, Ahmet Sen, Tim Smith</p>
+                        <p>Summer Cohort 2014</p>
+                        <br> <br>
+                        <p></p>
+                      </div>
+                      <div class="col-md-4">
+                        <a href="https://github.com/ThaddeusANg/a100-app" target="_blank"><img src="resources/img/GenericCode.png" class="img-responsive imgCenter" alt="Team Branching Bad Site"></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="Apprentice-Carousel">
+      <div class="Carousel-bg">
+        <div id="AppCarousel" class="carousel slide" data-ride="carousel">
+          <h1 class="centered">Alumni Apprentices</h1>
+          <div class="carousel-inner">
+            <div class="item active">
+              <a href="http://tomreznick.com" target="_blank"><img src="resources/img/TomReznickSiteGray.jpg" class="img-responsive" alt="Tom Reznick Personal Site"></a>
+              <div class="container-fluid">
+                <div class="carousel-caption">
+                  <h1>Tom Reznick</h1>
+                  <p>2013 Cohort
+                    <br>
+                    A100 Projects:  Whiteboard
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <a href="http://code-blake.com/" target="_blank"><img src="resources/img/BlakePraharajSiteGray.jpg" class="img-responsive" alt="Blake Praharaj Personal Site"></a>
+              <div class="container-fluid">
+                <div class="carousel-caption">
+                  <h1>Blake Praharaj</h1>
+                  <p>Summer Cohort 2014
+                    <br>
+                    A100 Projects:  Whiteboard
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <a class="left carousel-control" href="#AppCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+          <a class="right carousel-control" href="#AppCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="visible-lg">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-md-4">
+            <p class="footerDarkBG small allCaps">Contact Us </p>
+            <p class="textDarkBG small">
+              760 Chapel Street <br>
+              New Haven, CT 06510 <br>
+              <br>
+            </p>
+          </div>
+
+          <div class="col-md-4 leftAlign">
+            <br><br>
+            <p class="textDarkBG small">
+              <a href="tel:888-224-1340">888-224-1340</a> <br>
+              <a href="mailto:info@indie-soft.com">info@indie-soft.com</a>
+            </p>
+          </div>
+          
+          <div class="col-md-4 rightAlign">
+            <a href="http://indie-soft.com/" title="Independent Software" target="_blank"><img src="resources/img/footerLogos.png"></a>    
+          </div>
+        
+        </div>
+      
+      </div>
+  </section>
+
+  <section id="footer" class="hidden-lg">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-xs-12 centered">
+          <p class="footerDarkBG small allCaps"> Contact Us </p>
+          <p class="textDarkBG small">
+            760 Chapel Street <br>
+            New Haven, CT 06510 <br>
+            <br><br>
+            <a href="tel:888-224-1340">888-224-1340</a> <br>
+            <a href="mailto:info@indie-soft.com">info@indie-soft.com</a>
+          </p>
+          <br>
+          <a href="http://indie-soft.com/" title="Independent Software" target="_blank"><img src="resources/img/footerLogos.png"></a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery.mobile.custom.min.js"></script>
+  <script src="js/portfolio.js"></script>
+  </body>
+</html>                                                                             
