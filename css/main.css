@@ -345,10 +345,10 @@ padding: 50px;
     line-height: 200%;
     font-size: 80%;
   }
-  /*
- .media > .pull-right {
-  margin-left: 10px;
-  } */
+  
+ .navbar-brand {
+    padding: 1px 13px;
+  }
 }
 
 @media (min-width: 768px) {
