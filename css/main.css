@@ -222,6 +222,10 @@ A100 Portfolio Sheet
   height: 95%;
 }
 
+.carousel-heading {
+  color: white;
+}
+
 .carousel h1 {
   font-family:  'Montserrat', sans-serif;
   color: white;
