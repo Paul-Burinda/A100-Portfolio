@@ -68,17 +68,22 @@ A100 Portfolio Sheet
 .navbar-nav {
   margin: 7.5px -15px;
 }
+
+.navTextColor {
+  color: #D5D7DD !important; 
+}
+
+.navbarGray {
+  background-color: #3e3e3e;
+}
+
 .navbar-brand{
   float:left;
   height:50px;
   padding:1px 25px;
   font-size:14px;
   line-height:60px;
-  color: #636363;
-}
-
-.navbar-gray-color {
-    color: #F0F0F0;
+  color: #3e3e3e;
 }
 
 .logo{
