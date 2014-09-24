@@ -3163,7 +3163,7 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #333;
+  color: #D5D7DD;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
@@ -4192,7 +4192,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
-  color: #777;
+  color: #D5D7DD;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4203,7 +4203,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #777;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #777;
+  color: #D5D7DD;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4250,7 +4250,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: #080808;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #777;
+    color: #D5D7DD;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
