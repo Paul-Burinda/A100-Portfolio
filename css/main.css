@@ -34,6 +34,8 @@ A100 Portfolio Sheet
   /* Sizing */
     .small { font-size: 1em; }
 
+
+/*  Comment for Demo Only */
 p {
   font-style: italic;
   font-size: 16px;
@@ -110,6 +112,8 @@ h3 {
   background: #ebecee;
 }
 
+
+/* Condensed Multiple Accordions into one styling  */
 .AccordionProject {
   margin-right: 60px;
   margin-left: 60px;
@@ -237,7 +241,7 @@ padding: 50px;
   color: white;
 }
 
-/* Carousel RESPONSIVE CSS
+/* RESPONSIVE CSS
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
@@ -288,6 +292,22 @@ padding: 50px;
     background: #3e3e3e;
     padding: 50px; 
   }
+
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-right {
+    float: right !important;
+  }
+  
+  .navbar-nav {
+    margin: -50px 60px;
+  }
+
+  #ApplyButton, #HireButton {
+    margin-top: -5px;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -324,22 +344,5 @@ padding: 50px;
   
  .navbar-brand {
     padding: 1px 13px;
-  }
-}
-
-@media (min-width: 768px) {
-  .navbar-left {
-    float: left !important;
-  }
-  .navbar-right {
-    float: right !important;
-  }
-  
-  .navbar-nav {
-    margin: -50px 60px;
-  }
-
-  #ApplyButton, #HireButton {
-    margin-top: -5px;
   }
 }
